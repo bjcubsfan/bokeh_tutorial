@@ -5,3 +5,30 @@ line-length = 256
 flake8 = [
     "--ignore=E501,E402,E226,F401"
 ]
+
+[tool.poetry]
+name = "bokeh-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["B. J. Potter <bj.ctr.potter@faa.gov>"]
+readme = "README.md"
+packages = [{include = "bokeh_tutorial"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+geojson = "^3.0.1"
+bokeh = "~3.2.0"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+geopandas = "^0.13.2"
+jupyter-client = "~7"
+nbqa = "^1.7.0"
+notebook = "^6.5.4"
+pandas = "^2.0.3"
+pre-commit = "^3.3.3"
+pyshp = "^2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
