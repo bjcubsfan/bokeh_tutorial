@@ -14,7 +14,7 @@ This is helpful if you can't access mybinder.org, or if you want to
 
 ## Setup with Nebari for Scipy 2023
 
-This tutorial is being presented live at SciPy 2023, where you can use Nebari (JupterHub) hosted at [scipy.quansight.dev](https://http://scipy.quansight.dev/) to follow along. 
+This tutorial is being presented live at SciPy 2023, where you can use Nebari (JupterHub) hosted at [scipy.quansight.dev](https://scipy.quansight.dev/) to follow along.
 
 Follow [this participant's guide](https://docs.google.com/document/d/1vnWhNyUBRpILb2MAHQfTmZQY3pCIaCmroV9ke49nQlE/edit) to register and sign-in at, and use the following link to clone the tutorial materials:
 
@@ -24,7 +24,7 @@ https://github.com/bokeh/tutorial.git
 
 In the `tutorial` folder that's created with all material, navigate to the `notebooks` folder, and open `01_introduction.ipynb`.
 
-The environment for this tutorial is `global-gloabl-interactive-dataviz-bokeh`, and it is automatically selected for you.
+The environment for this tutorial is `global-global-interactive-dataviz-bokeh`, and it is automatically selected for you.
 
 ## Local setup
 
